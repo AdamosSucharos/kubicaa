@@ -1,0 +1,54 @@
+header {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+/* Hover effect for all buttons */
+button:hover {
+    background-color: #e1ec3c;
+    color: #333;
+}
+
+.categories-container {
+    width: 200px; /* Set width for the categories list */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#categoriesList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#categoriesList li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 60%; /* Adjusted width for the table */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    margin: 20px 0;
+}
